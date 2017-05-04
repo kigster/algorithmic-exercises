@@ -1,4 +1,8 @@
 require 'bundler/setup'
+require 'simplecov'
+
+SimpleCov.start 
+
 require 'codility'
 require 'rspec-benchmark'
 require 'rspec/its'

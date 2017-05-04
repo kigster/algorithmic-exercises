@@ -1,5 +1,11 @@
-sudo: false
-language: ruby
+cache: bundler
 rvm:
-  - 2.4.1
-before_install: gem install bundler -v 1.14.6
+- 2.4.1
+before_script:
+script: bundle exec rspec
+after_success:
+  - bundle exec codeclimate-test-reporter
+env:
+notifications:
+  slack:
+    secure: QaaD9WpCYoGFITVd8ku3cjkw1ADJ/rqsPgFGsbRxjPOj1HDzkkUVs20IK0AysxeI6CPY31rfWqbBcE4I4dUE49uIhpOoBXZ8GDYunUONeEmqGwrqZtV/8NqMLNc0Ouu5Jp/KVlnMO93Pcg97BBW81t1koxqyvgSU5oEmJdTmQZIsRNprhczeCj7T6jbb12LEA8uKi2qnp+FAhL5NJczHxqWCd2pWThtbA+hiRmH/mU0480n1eRForN51jDYUrgxb4PamhfUUG1xkzMPzGsvJTMCQDOG4eyHaq71vlZ3z9BbQG6vbcjfEQHVwfrPRz1k0luIlxMXJxszCFnnLVqeRYs85y4FOQSrLsDfsyLCU+1NgLqtseN6jNKOtY624Ok7YvYzsVYez/CPWUG1d2NIRMYQ+BoL2VQ3SDfvr4bYQ02QmqlhM1bKqmBoM+WmiH1FQk6CKOFcmlSkgkFilLi6YSB/EisQ5V5jo7DnzD38VVACo6J6SgVk2D6soONE3zev34Qa6PIOuwTTlXl6JKH0cpiG058lI+Oza+0xi0jg58sZG3jxeGM7m4wg66htgyN1oRQjIukSR+IJ3PZlFKTLvx2rCUcYz+8fRpPCMTSIVLeju5oPqOm0VRUni2dG5JGyNACV8EhI4ZMcfl7+uFTIagCnllRftBx8lY6AxWN3WpDE=

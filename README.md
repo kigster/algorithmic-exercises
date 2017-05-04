@@ -1,4 +1,6 @@
-# interview-questions
+[![Build Status](https://travis-ci.org/kigster/interview-questions.svg?branch=master)](https://travis-ci.org/kigster/interview-questions)
+
+# Interview Questions, in Ruby
 
 ## Various questions and answers for interview coding challenges.
 
