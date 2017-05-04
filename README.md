@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/kigster/interview-questions.svg?branch=master)](https://travis-ci.org/kigster/interview-questions)
-
+[![Test Coverage](https://codeclimate.com/github/kigster/interview-questions/badges/coverage.svg)](https://codeclimate.com/github/kigster/interview-questions/coverage)
+[![Code Climate](https://codeclimate.com/github/kigster/interview-questions/badges/gpa.svg)](https://codeclimate.com/github/kigster/interview-questions)
+[![Issue Count](https://codeclimate.com/github/kigster/interview-questions/badges/issue_count.svg)](https://codeclimate.com/github/kigster/interview-questions)
 # Interview Questions, in Ruby
 
 ## Various questions and answers for interview coding challenges.
