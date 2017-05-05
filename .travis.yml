@@ -3,10 +3,10 @@ rvm:
 - 2.2.7
 - 2.3.4
 - 2.4.1
-before_script: cd ruby && bundle
-script: cd ruby && bundle exec rspec
+script: bundle exec rspec
+before_install: cd ruby
 after_success:
-- cd ruby && bundle exec codeclimate-test-reporter
+  bundle exec codeclimate-test-reporter
 env:
   CODECLIMATE_REPO_TOKEN=4858a48c535871340f2ff9985acb163fc36ae4fa622f1f915252d88cb68e66e4
 notifications:
