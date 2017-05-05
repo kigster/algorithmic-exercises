@@ -3,7 +3,7 @@ rvm:
 - 2.2.7
 - 2.3.4
 - 2.4.1
-before_script: 
+before_script: cd ruby && bundle
 script: cd ruby && bundle exec rspec
 after_success:
 - cd ruby && bundle exec codeclimate-test-reporter
