@@ -13,7 +13,7 @@ This gem contains a collection of interview questions and challenges implemented
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'codility'
+gem 'interview/ruby'
 ```
 
 And then execute:
@@ -22,12 +22,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install codility
+    $ gem install interview-ruby
 
 ## Usage
 
-```ruby
-be rspec
+```bash
+git clone https://github.com/kigster/interview-questions 
+cd interview-questions/ruby
+bundle
+bundle exec rspec
 ```
 
 ## Development
@@ -38,7 +41,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/kigster/codility.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kigster/interview-ruby.
 
 ## License
 

@@ -3,7 +3,7 @@ require 'simplecov'
 
 SimpleCov.start 
 
-require 'codility'
+require 'interview/ruby'
 require 'rspec-benchmark'
 require 'rspec/its'
 

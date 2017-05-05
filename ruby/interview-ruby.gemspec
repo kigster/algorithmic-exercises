@@ -1,17 +1,17 @@
 # encoding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'codility/version'
+require 'interview/ruby/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'codility'
-  spec.version       = Codility::VERSION
+  spec.name          = 'interview-ruby'
+  spec.version       = Interview::Ruby::VERSION
   spec.authors       = ['Konstantin Gredeskoul']
   spec.email         = ['kig@reinvent.one']
 
-  spec.summary       = %q{Codility examples}
-  spec.description   = %q{Codility examples}
-  spec.homepage      = 'https://github.com/kigster/codility-tests'
+  spec.summary       = %q{Interview question in ruby}
+  spec.description   = %q{Interview question in ruby}
+  spec.homepage      = 'https://github.com/kigster/interview-questions'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files `.split("\n").reject do |f|
