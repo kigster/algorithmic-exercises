@@ -29,6 +29,5 @@ std::vector<int> *Finder::find() {
             results.push_back(i);
         }
     }
-    std::sort (results.begin(), results.end());
     return &results;
 }
