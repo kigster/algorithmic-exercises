@@ -24,4 +24,12 @@
 /vendor/bundle
 **/coverage
 **/.rspec_status
-
+**/cmake-build-debug
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/CMakeFiles/
+**/Makefile
+**/*.cbp
+**/*.a
+/cpp/equillibrium/equillibrium
+/cpp/equillibrium/test/src/equilibriumTests
