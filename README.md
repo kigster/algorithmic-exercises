@@ -2,7 +2,8 @@
 [![Test Coverage](https://codeclimate.com/github/kigster/interview-questions/badges/coverage.svg)](https://codeclimate.com/github/kigster/interview-questions/coverage)
 [![Code Climate](https://codeclimate.com/github/kigster/interview-questions/badges/gpa.svg)](https://codeclimate.com/github/kigster/interview-questions)
 [![Issue Count](https://codeclimate.com/github/kigster/interview-questions/badges/issue_count.svg)](https://codeclimate.com/github/kigster/interview-questions)
-# Interview Questions, in Ruby
+
+# A Collection of Interview Questions & Solutions, in Ruby and C++
 
 ## Various questions and answers for interview coding challenges.
 
@@ -10,38 +11,25 @@ This gem contains a collection of interview questions and challenges implemented
 
 ## Installation
 
-Add this line to your application's Gemfile:
+There are two subfolders — `cpp/` and `ruby/`. 
 
-```ruby
-gem 'interview/ruby'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install interview-ruby
+They are completely independent, but a top-level build script called `/.travis.sh` contains the steps to run the ruby test suite, as well as the C/C++ sweet as well.
 
 ## Usage
 
 ```bash
 git clone https://github.com/kigster/interview-questions 
-cd interview-questions/ruby
-bundle
-bundle exec rspec
+cd interview-questions
+./.travis.sh
 ```
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+View the contents of that shell script for specifics on building each portion of the repo.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/kigster/interview-ruby.
+Bug reports and pull requests are very welcome. 
+
+Please submit pull requests at https://github.com/kigster/interview-questions.
 
 ## License
 

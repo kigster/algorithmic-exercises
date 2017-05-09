@@ -5,13 +5,14 @@ set -e
 root=$(pwd)
 
 cd ${root}/ruby 
-gem install bundler  --no-ri --no-rdoc
-bundle install 
+gem install bundler  --no-ri --no-rdoc > /dev/null
+bundle install >/dev/null
 bundle exec rspec
 
 cd ${root}/cpp/equillibrium/
-cmake . 
-make
+cmake .  > /dev/null
+make > /dev/null
+
 ./test/src/equilibriumTests
 
 cd ${root}
