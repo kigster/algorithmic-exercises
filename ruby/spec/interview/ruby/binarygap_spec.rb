@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 def test_name(value, expected)
-  "n = #{value} = #{value.to_s(2)}, expects a gap of #{expected}"
+  "n = #{value} = [#{sprintf "%s", value.to_s(2)}] -> #{sprintf "%s", expected}"
 end
 
 RSpec.describe Interview::Ruby::BinaryGap do
@@ -21,7 +21,16 @@ RSpec.describe Interview::Ruby::BinaryGap do
   context(test_name(      51712, 2)) {include_examples :binary_gap, 51712, 2}
   context(test_name(         20, 1)) {include_examples :binary_gap, 20, 1}
   context(test_name(       1024, 0)) {include_examples :binary_gap, 1024, 0}
+end
 
+RSpec.describe Interview::Ruby::BinaryGap::BitShifter do
+  shared_examples :bit_shifter do |number, expectation|
+    subject(:shifter) { described_class.new(number) }
+    it('should equal to map') { expect(shifter.to_a).to eq(expectation) }
+    it('bit length should be correct') { expect(number.bit_length).to eq(expectation.size) }
+  end
 
+  context(test_name(4,  [1, 0, 0 ]))    { include_examples :bit_shifter, 4, [0, 0, 1] }
+  context(test_name(63, [1,1,1,1,1,1])) { include_examples :bit_shifter, 63, [1,1,1,1,1,1] }
 
 end

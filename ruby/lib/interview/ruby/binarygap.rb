@@ -29,15 +29,57 @@
 # expected worst-case time complexity is O(log(N));
 # expected worst-case space complexity is O(1).
 
-require_relative 'binarygap/loop_state'
-
 module Interview
   module Ruby
     module BinaryGap
+      # Enumerator class that offers #each that shifts
+      # the number to the right, and returns the shifted bit.
+      class BitShifter
+        include Enumerable
+        attr_accessor :number
+
+        def initialize(number)
+          self.number = number
+        end
+
+        def each(&block)
+          return enum_for(:each) unless block
+          x = number
+          begin
+            bit = (x & 0b1)
+            x   >>= 1
+            yield bit
+          end while x != 0
+        end
+      end
+
+      class Gap
+        attr_accessor :found_one, :sum, :max
+
+        def initialize
+          self.found_one = false
+          self.sum       = 0
+          self.max       = 0
+        end
+      end
+
+
       def self.gap(number)
-        state = LoopState.new(number)
-        state.next while (state.current != 0)
-        state.max_sum
+        shifter = BitShifter.new(number)
+        gap     = Gap.new
+
+        shifter.each do |bit|
+          if bit == 0
+            gap.sum += 1 if gap.found_one
+          elsif bit == 1
+            gap.found_one = true
+            gap.max       = gap.sum if gap.sum > gap.max
+            gap.sum       = 0
+          else
+            raise ArgumentError, 'Expecting a binary value, got ' + bit.to_s
+          end
+        end
+        gap.max
       end
     end
   end
