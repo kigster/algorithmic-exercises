@@ -6,6 +6,7 @@ SimpleCov.start
 require 'interview/ruby'
 require 'rspec-benchmark'
 require 'rspec/its'
+require 'complexity_assert'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

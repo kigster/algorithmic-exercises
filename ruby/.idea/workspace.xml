@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f782aeaf-e41f-4f84-8966-081fb425ba55" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/interview/ruby/binarygap/loop_state.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cpp/equillibrium/test/lib/googletest" afterPath="$PROJECT_DIR$/../cpp/equillibrium/test/lib/googletest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codility.iml" afterPath="$PROJECT_DIR$/.idea/codility.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interview-ruby.gemspec" afterPath="$PROJECT_DIR$/interview-ruby.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/interview/ruby/binarygap.rb" afterPath="$PROJECT_DIR$/lib/interview/ruby/binarygap.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/interview/ruby/binarygap_spec.rb" afterPath="$PROJECT_DIR$/spec/interview/ruby/binarygap_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +15,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ruby@Interview__Ruby__BinaryGap__codility.coverage" NAME="Interview::Ruby::BinaryGap: codility Coverage Results" MODIFIED="1494357693514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="codility" />
-    <SUITE FILE_PATH="coverage/ruby@All_specs_in_spec__codility.coverage" NAME="All specs in spec: codility Coverage Results" MODIFIED="1494358113029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="codility" />
+    <SUITE FILE_PATH="coverage/ruby@All_specs_in_spec__codility.coverage" NAME="All specs in spec: codility Coverage Results" MODIFIED="1494362049244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="codility" />
     <SUITE FILE_PATH="coverage/codility@Codility__EquilibriumFinder__codility.coverage" NAME="Codility::EquilibriumFinder: codility Coverage Results" MODIFIED="1493871010940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="codility" />
     <SUITE FILE_PATH="coverage/codility@Codility__codility.coverage" NAME="Codility: codility Coverage Results" MODIFIED="1493869216018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="codility" />
     <SUITE FILE_PATH="coverage/codility@Equilibrium__codility.coverage" NAME="Equilibrium: codility Coverage Results" MODIFIED="1493872501202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="codility" />
@@ -112,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="binarygap.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="binarygap.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/interview/ruby/binarygap.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1050">
@@ -122,21 +116,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interview-ruby.gemspec" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interview-ruby.gemspec">
+      <file leaf-file-name="spec_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="binarygap_spec.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="interview-ruby.gemspec" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interview-ruby.gemspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="binarygap_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/interview/ruby/binarygap_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+            <state relative-caret-position="432">
+              <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -197,7 +201,6 @@
         <option value="$PROJECT_DIR$/lib/interview/ruby/version.rb" />
         <option value="$PROJECT_DIR$/lib/interview/ruby/equilibrium.rb" />
         <option value="$PROJECT_DIR$/spec/interview/ruby/equilibrium/shared_examples.rb" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/lib/interview/ruby/equilibrium/finder.rb" />
         <option value="$PROJECT_DIR$/lib/interview/ruby/equilibrium/finder_fast.rb" />
         <option value="$PROJECT_DIR$/LICENSE.md" />
@@ -210,9 +213,10 @@
         <option value="$PROJECT_DIR$/.rspec_status" />
         <option value="$PROJECT_DIR$/lib/interview/ruby/binarygap/loop_state.rb" />
         <option value="$PROJECT_DIR$/lib/interview/ruby/binarygap/bit_shifter.rb" />
-        <option value="$PROJECT_DIR$/spec/interview/ruby/binarygap_spec.rb" />
         <option value="$PROJECT_DIR$/lib/interview/ruby/binarygap.rb" />
         <option value="$PROJECT_DIR$/interview-ruby.gemspec" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/interview/ruby/binarygap_spec.rb" />
       </list>
     </option>
   </component>
@@ -252,72 +256,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="ruby">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ruby">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="lib">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="interview">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ruby">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="lib">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="interview">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ruby">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ruby">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="lib">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="interview">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ruby">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="equilibrium">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -810,7 +748,7 @@
       <workItem from="1494222598738" duration="248000" />
       <workItem from="1494228662457" duration="1331000" />
       <workItem from="1494308712402" duration="7391000" />
-      <workItem from="1494352795739" duration="4987000" />
+      <workItem from="1494352795739" duration="6603000" />
     </task>
     <servers />
   </component>
@@ -818,20 +756,20 @@
     <history-entry file="All_specs_in_spec__codility - 2017.05.09 at 12h 28m 34s.xml">
       <configuration name="All specs in spec: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Interview__Ruby__BinaryGap__codility - 2017.05.09 at 12h 14m 28s.xml">
-      <configuration name="Interview::Ruby::BinaryGap: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_spec__codility - 2017.05.09 at 12h 31m 18s.xml">
+      <configuration name="All specs in spec: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Interview__Ruby__BinaryGap__codility - 2017.05.09 at 12h 16m 25s.xml">
-      <configuration name="Interview::Ruby::BinaryGap: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_spec__codility - 2017.05.09 at 12h 31m 29s.xml">
+      <configuration name="All specs in spec: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Interview__Ruby__BinaryGap__codility - 2017.05.09 at 12h 17m 06s.xml">
-      <configuration name="Interview::Ruby::BinaryGap: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_spec__codility - 2017.05.09 at 12h 52m 24s.xml">
+      <configuration name="All specs in spec: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Interview__Ruby__BinaryGap__codility - 2017.05.09 at 12h 17m 22s.xml">
-      <configuration name="Interview::Ruby::BinaryGap: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_spec__codility - 2017.05.09 at 13h 33m 25s.xml">
+      <configuration name="All specs in spec: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Interview__Ruby__BinaryGap__codility - 2017.05.09 at 12h 18m 34s.xml">
-      <configuration name="Interview::Ruby::BinaryGap: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_spec__codility - 2017.05.09 at 13h 34m 13s.xml">
+      <configuration name="All specs in spec: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="Interview__Ruby__BinaryGap__codility - 2017.05.09 at 12h 18m 47s.xml">
       <configuration name="Interview::Ruby::BinaryGap: codility" configurationId="RSpecRunConfigurationType" />
@@ -847,7 +785,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29270000" />
+    <option name="totallyTimeSpent" value="30886000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -860,14 +798,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2610063" sideWeight="0.50476193" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2610063" sideWeight="0.4952381" order="2" side_tool="false" content_ui="tabs" x="803" y="512" width="877" height="473" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.4968153" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22982885" sideWeight="0.49161425" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22982885" sideWeight="0.49161425" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -983,13 +920,6 @@
         <state relative-caret-position="96">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1135,18 +1065,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/interview/ruby/binarygap_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview-ruby.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1155,6 +1077,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1050">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview-ruby.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/interview/ruby/binarygap_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding />
         </state>
       </provider>

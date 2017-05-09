@@ -45,11 +45,11 @@ color::init() {
 color::init
 
 section::h2() {
-  section::colored::header bakylw bldwht bakylw bldblk $*
+  section::colored::header bakpur bldwht bakpur bldwht $*
 }
 
 section::h1() {
-  section::colored::header bakblu bldwht bakblu bldblk $*
+  section::colored::header bakblu bldwht bakblu bldwht $*
 }
 
 section::colored::header() {
@@ -71,7 +71,7 @@ section::colored::header() {
 }
 
 columns() {
-  stty -a | grep columns | sed -E 's/.*rows; ([0-9]+) columns;.*/\1/g'
+  tput cols
 }
 
 for file in $(ls -1 bash); do
