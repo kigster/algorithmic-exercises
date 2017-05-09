@@ -7,21 +7,21 @@
 
 ## Various questions and answers for interview coding challenges.
 
-This gem contains a collection of interview questions and challenges implemented in ruby.
-
-## Installation
+This repo contains a collection of interview questions and challenges implemented in ruby and C/C++.
 
 There are two subfolders — `cpp/` and `ruby/`. 
 
 They are completely independent, but a top-level build script called `/.travis.sh` contains the steps to run the ruby test suite, as well as the C/C++ sweet as well.
 
-## Usage
-
 ```bash
 git clone https://github.com/kigster/interview-questions 
 cd interview-questions
-./.travis.sh
 ```
+
+And then, you can run `./.travis.sh`:
+
+
+<a href="doc/test-suite.png" target="_blank" style="text-align: center; width: 100%; display: block; padding: 20px;" ><img src="doc/test-suite.png" width="60%" border="1" style="box-shadow: 0 0 25px black; "></a>
 
 View the contents of that shell script for specifics on building each portion of the repo.
 
@@ -29,7 +29,7 @@ View the contents of that shell script for specifics on building each portion of
 
 Bug reports and pull requests are very welcome. 
 
-Please submit pull requests at https://github.com/kigster/interview-questions.
+Please submit [pull requests](https://github.com/kigster/interview-questions).
 
 ## License
 
