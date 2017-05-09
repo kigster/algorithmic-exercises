@@ -6,15 +6,31 @@
 #include "helpers.h"
 #include <Finder.h>
 
-// Tests factorial of 0.
-TEST(FinderTest, ReturnsCorrectData) {
-  Finder* f = new Finder(testData);
-  const std::vector<int> expected = {1, 3, 7};
+
+void verifyExpectations(const std::vector<int> &inputData,
+                        const std::vector<int> &expected) {
+
+  Finder *f = new Finder(inputData);
+
   const std::vector<int> *result = f->find();
-  int fsize = result->size();
-  int esize = expected.size();
-  EXPECT_EQ(fsize, esize);
-  EXPECT_EQ(expected[0], result->at(0));
-  EXPECT_EQ(expected[1], result->at(1));
-  EXPECT_EQ(expected[2], result->at(2));
+
+  EXPECT_EQ(expected.size(), result->size());
+  EXPECT_EQ(expected, *result);
+
+  for (auto i = 0; i < expected.size(); i++) {
+    EXPECT_EQ(expected[i], result->at(i));
+  }
 }
+
+TEST(FinderTest, ReturnsCorrectIndicesA) {
+  std::vector<int> inputData {-1, 3, -4, 5, 1, -6, 2, 1};
+  std::vector<int> expected {1, 3, 7};
+  verifyExpectations(inputData, expected);
+}
+
+TEST(FinderTest, ReturnsCorrectIndicesB) {
+  std::vector<int> inputData1 {1, -2, 1, 1};
+  std::vector<int> expected1 {0, 3};
+  verifyExpectations(inputData1, expected1);
+}
+

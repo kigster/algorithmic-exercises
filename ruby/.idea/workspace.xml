@@ -31,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="finder_slow_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/finder_slow_spec.rb">
+      <file leaf-file-name="shared_examples.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/shared_examples.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="392">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -615,7 +615,7 @@
       <workItem from="1494057371704" duration="1690000" />
       <workItem from="1494210557944" duration="558000" />
       <workItem from="1494222598738" duration="248000" />
-      <workItem from="1494228662457" duration="860000" />
+      <workItem from="1494228662457" duration="1136000" />
     </task>
     <servers />
   </component>
@@ -652,7 +652,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16421000" />
+    <option name="totallyTimeSpent" value="16697000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -898,50 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/finder_fast_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/interview/ruby_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/shared_examples.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <marker date="1493944663000" expanded="true" signature="58:727" ph="do ... end" />
-            <marker date="1493944663000" expanded="true" signature="98:111" ph="{ ... }" />
-            <marker date="1493944663000" expanded="true" signature="131:149" ph="{ ... }" />
-            <marker date="1493944663000" expanded="true" signature="165:194" ph="{ ... }" />
-            <marker date="1493944663000" expanded="true" signature="207:225" ph="{ ... }" />
-            <marker date="1493944663000" expanded="true" signature="265:310" ph="do ... end" />
-            <marker date="1493944663000" expanded="true" signature="282:304" ph="{ ... }" />
-            <marker date="1493944663000" expanded="true" signature="344:418" ph="do ... end" />
-            <marker date="1493944663000" expanded="true" signature="363:378" ph="{ ... }" />
-            <marker date="1493944663000" expanded="true" signature="393:412" ph="{ ... }" />
-            <marker date="1493944663000" expanded="true" signature="444:504" ph="do ... end" />
-            <marker date="1493944663000" expanded="true" signature="463:467" ph="{ ... }" />
-            <marker date="1493944663000" expanded="true" signature="482:498" ph="{ ... }" />
-            <marker date="1493944663000" expanded="true" signature="530:723" ph="do ... end" />
-            <marker date="1493944663000" expanded="true" signature="549:567" ph="{ ... }" />
-            <marker date="1493944663000" expanded="true" signature="592:686" ph="do ... end" />
-            <marker date="1493944663000" expanded="true" signature="608:620" ph="{ ... }" />
-            <marker date="1493944663000" expanded="true" signature="676:678" ph="{ ... }" />
-            <marker date="1493944663000" expanded="true" signature="701:717" ph="{ ... }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.ruby-version">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -968,7 +924,38 @@
     <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/finder_slow_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1494005753000" expanded="true" signature="114:198" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/finder_fast_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1493945248000" expanded="true" signature="114:200" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/interview/ruby_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1493945232000" expanded="true" signature="54:148" ph="do ... end" />
+            <marker date="1493945232000" expanded="true" signature="85:144" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/shared_examples.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="29" />
           <folding />
         </state>
       </provider>

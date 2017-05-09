@@ -48,4 +48,3 @@ install:
 - ${CXX} -v
 os:
   - linux
-script: ./travis.sh
