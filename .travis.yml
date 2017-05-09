@@ -5,9 +5,7 @@ language: cpp
 compiler:
   - gcc
   - clang
-script: ./.travis.sh
-after_success:
-  bundle exec codeclimate-test-reporter
+script: ./build.sh
 env:
   CODECLIMATE_REPO_TOKEN=4858a48c535871340f2ff9985acb163fc36ae4fa622f1f915252d88cb68e66e4
 notifications:
