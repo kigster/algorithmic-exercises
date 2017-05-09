@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Interview question in ruby}
   spec.description   = %q{Interview question in ruby}
-  spec.homepage      = 'https://github.com/kigster/interview-questions'
+  spec.homepage      = 'https://github.com/kigster/algorithmic-exercises'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files `.split("\n").reject do |f|

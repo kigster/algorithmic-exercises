@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/kigster/interview-questions.svg?branch=master)](https://travis-ci.org/kigster/interview-questions)
-[![Test Coverage](https://codeclimate.com/github/kigster/interview-questions/badges/coverage.svg)](https://codeclimate.com/github/kigster/interview-questions/coverage)
-[![Code Climate](https://codeclimate.com/github/kigster/interview-questions/badges/gpa.svg)](https://codeclimate.com/github/kigster/interview-questions)
-[![Issue Count](https://codeclimate.com/github/kigster/interview-questions/badges/issue_count.svg)](https://codeclimate.com/github/kigster/interview-questions)
+[![Build Status](https://travis-ci.org/kigster/algorithmic-exercises.svg?branch=master)](https://travis-ci.org/kigster/algorithmic-exercises)
+[![Test Coverage](https://codeclimate.com/github/kigster/algorithmic-exercises/badges/coverage.svg)](https://codeclimate.com/github/kigster/algorithmic-exercises/coverage)
+[![Code Climate](https://codeclimate.com/github/kigster/algorithmic-exercises/badges/gpa.svg)](https://codeclimate.com/github/kigster/algorithmic-exercises)
+[![Issue Count](https://codeclimate.com/github/kigster/algorithmic-exercises/badges/issue_count.svg)](https://codeclimate.com/github/kigster/algorithmic-exercises)
 
 # A Collection of Interview Questions & Solutions, in Ruby and C++
 
@@ -14,8 +14,8 @@ There are two subfolders — `cpp/` and `ruby/`.
 They are completely independent, but a top-level build script called `/.travis.sh` contains the steps to run the ruby test suite, as well as the C/C++ sweet as well.
 
 ```bash
-git clone https://github.com/kigster/interview-questions 
-cd interview-questions
+git clone https://github.com/kigster/algorithmic-exercises 
+cd algorithmic-exercises
 ```
 
 And then, you can run `./.travis.sh`:
@@ -29,7 +29,7 @@ View the contents of that shell script for specifics on building each portion of
 
 Bug reports and pull requests are very welcome. 
 
-Please submit [pull requests](https://github.com/kigster/interview-questions).
+Please submit [pull requests](https://github.com/kigster/algorithmic-exercises).
 
 ## License
 
