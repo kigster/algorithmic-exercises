@@ -7,6 +7,5 @@ build::ruby() {
   bundle install >/dev/null
   section::h1 'Testing Ruby Projects...'
   bundle exec rspec
-  bundle exec codeclimate-test-reporter
   cd ${root}
 }
