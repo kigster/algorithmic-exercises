@@ -30,5 +30,9 @@
 **/Makefile
 **/*.cbp
 **/*.a
-/cpp/equillibrium/equillibrium
-/cpp/equillibrium/test/src/equilibriumTests
+/cpp/src/equilibrium/equilibrium
+/cpp/test/src/equilibrium/equilibriumTests
+/cpp/src/morse/morse
+/cpp/test/src/morse/morseTest
+/cpp/algos
+/cpp/test/lib/googletest

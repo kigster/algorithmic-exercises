@@ -1,5 +1,5 @@
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
-add_executable(equilibriumTests finder_test.cpp helpers.h)
+add_executable(equilibriumTests equilibriumTest.cpp)
 
 target_link_libraries(equilibriumTests gtest gtest_main)
-target_link_libraries(equilibriumTests finder)
+target_link_libraries(equilibriumTests equilibrium)

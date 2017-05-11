@@ -5,7 +5,7 @@ build::ruby() {
   gem install bundler  --no-ri --no-rdoc > /dev/null
   echo "Installing dependent gems..."
   bundle install >/dev/null
-  section::h1 'Testing Ruby Projects...'
+  section::h2 'Testing Ruby Projects...'
   bundle exec rspec
   cd ${root}
 }

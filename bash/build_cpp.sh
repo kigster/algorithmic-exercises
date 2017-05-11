@@ -2,11 +2,15 @@
 
 build::cpp() {
   section::h1 'Building C++ Projects...'
-  cd ${root}/cpp/equillibrium/
-  cmake -Wno-dev .  > /dev/null
-  make > /dev/null
+  cd ${root}/cpp
+  cmake -Wno-dev .  
+  make 
 
-  section::h2 'Testing C++ Projects...'
-  ./test/src/equilibriumTests
+  section::h2 'Testing Equlibrium...'
+  ./test/src/equilibrium/equilibriumTests
+
+  section::h2 'Testing morseTest...'
+  ./test/src/morse/morseTest
+
   cd ${root}
 }

@@ -3,13 +3,15 @@
 //
 
 #include <iostream>
-#include "Finder.h"
+#include "Equilibrium.h"
 
-Finder::Finder(const std::vector<int> &data_v) {
+std::string &getString(std::string &decoded, std::string &character);
+
+Equilibrium::Equilibrium(const std::vector<int> &data_v) {
     data = data_v;
 }
 
-std::vector<int> *Finder::find() {
+std::vector<int> *Equilibrium::find() {
     int len = data.size();
     int last = len - 1;
 
@@ -31,3 +33,5 @@ std::vector<int> *Finder::find() {
     }
     return &results;
 }
+
+

@@ -3,14 +3,15 @@
 //
 
 #include "gtest/gtest.h"
-#include "helpers.h"
-#include <Finder.h>
+#include <Equilibrium.h>
+#include "gtest/gtest.h"
+#include <vector>
 
 
 void verifyExpectations(const std::vector<int> &inputData,
                         const std::vector<int> &expected) {
 
-  Finder *f = new Finder(inputData);
+  Equilibrium *f = new Equilibrium(inputData);
 
   const std::vector<int> *result = f->find();
 

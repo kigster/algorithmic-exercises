@@ -67,12 +67,12 @@
  * is included in support of clause 2.2 (b) of the Apple Public License,
  * Version 2.0.
  */
-
-#ifndef _SYS_MALLOC_H_
-#define	_SYS_MALLOC_H_
-
-#include <sys/appleapiopts.h>
-
-
+//
+//#ifndef _SYS_MALLOC_H_
+//#define	_SYS_MALLOC_H_
+//
+//#include <sys/appleapiopts.h>
+//
+//
 
 #endif	/* _SYS_MALLOC_H_ */

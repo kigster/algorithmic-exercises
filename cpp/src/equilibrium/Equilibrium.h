@@ -2,14 +2,14 @@
 // Created by Konstantin Gredeskoul on 5/7/17.
 //
 
-#ifndef EQUILLIBRIUM_FINDER_H
-#define EQUILLIBRIUM_FINDER_H
+#ifndef EQUILLIBRIUM_H
+#define EQUILLIBRIUM_H
 
 #include <vector>
 
-class Finder {
+class Equilibrium {
 public:
-    Finder(const std::vector<int> &data_v);
+    Equilibrium(const std::vector<int> &data_v);
     std::vector<int> *find();
 private:
     std::vector<int> data;
@@ -17,4 +17,4 @@ private:
 };
 
 
-#endif //EQUILLIBRIUM_FINDER_H
+#endif //EQUILLIBRIUM_H
