@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="algos" targetName="gtest" />
+      <config projectName="algos" targetName="morseTest" />
+      <config projectName="algos" targetName="equilibriumTests" />
+      <config projectName="algos" targetName="algos" />
+      <config projectName="algos" targetName="gmock" />
+      <config projectName="algos" targetName="morse" />
+      <config projectName="algos" targetName="gmock_main" />
+      <config projectName="algos" targetName="gtest_main" />
+      <config projectName="algos" targetName="equilibrium" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration GENERATION_DIR="$USER_HOME$/Dropbox/Workspace/interviews/algorithmic-exercises/cpp" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="203523df-dfa3-4916-8fa7-5d0054dd7e5c" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$USER_HOME$/Dropbox/Workspace/interviews/algorithmic-exercises/cpp/" />
+    <ignored path="$PROJECT_DIR$/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/test/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/test/src/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/test/lib/googletest/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/test/lib/googletest/googlemock/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/test/src/equilibrium/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/test/src/morse/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/morse/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/equilibrium/CMakeFiles/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="equillibrium" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/src/equilibrium/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cmake_install.cmake" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cmake_install.cmake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Morse.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/morse/Morse.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="e#87#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/src/morse/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="morseTest.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/src/morse/morseTest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Morse.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/morse/Morse.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="671">
+              <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+              <folding>
+                <element signature="e#54#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Equilibrium.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/equilibrium/Equilibrium.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Equilibrium.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/equilibrium/Equilibrium.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#54#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1494472093000" expanded="true" signature="943:959" ph="CMAKE_COMMAND=&quot;/Users/kig/Library/Application Support/J..." />
+                <marker date="1494472093000" expanded="true" signature="3516:3539" ph="install/fast:" />
+                <marker date="1494472093000" expanded="true" signature="3540:3616" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="3617:3757" ph="list_install_components:" />
+                <marker date="1494472093000" expanded="true" signature="3758:3845" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="3846:3899" ph="list_install_components/fast:" />
+                <marker date="1494472093000" expanded="true" signature="3901:3961" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="3962:4336" ph="all:" />
+                <marker date="1494472093000" expanded="true" signature="4337:4374" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="4375:4420" ph="clean:" />
+                <marker date="1494472093000" expanded="true" signature="4421:4460" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="4461:4478" ph="clean/fast:" />
+                <marker date="1494472093000" expanded="true" signature="4480:4536" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="4537:4596" ph="preinstall:" />
+                <marker date="1494472093000" expanded="true" signature="4597:4653" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="4654:4714" ph="preinstall/fast:" />
+                <marker date="1494472093000" expanded="true" signature="4715:4756" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="4757:4875" ph="depend:" />
+                <marker date="1494472093000" expanded="true" signature="4876:5036" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="5037:5107" ph="algos:" />
+                <marker date="1494472093000" expanded="true" signature="5108:5153" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="5154:5236" ph="algos/fast:" />
+                <marker date="1494472093000" expanded="true" signature="5237:5401" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="5402:5472" ph="morse:" />
+                <marker date="1494472093000" expanded="true" signature="5473:5518" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="5519:5621" ph="morse/fast:" />
+                <marker date="1494472093000" expanded="true" signature="5622:5792" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="5793:5875" ph="equilibrium:" />
+                <marker date="1494472093000" expanded="true" signature="5876:5927" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="5928:6060" ph="equilibrium/fast:" />
+                <marker date="1494472093000" expanded="true" signature="6061:6231" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="6232:6302" ph="gmock:" />
+                <marker date="1494472093000" expanded="true" signature="6303:6348" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="6349:6493" ph="gmock/fast:" />
+                <marker date="1494472093000" expanded="true" signature="6494:6663" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="6664:6744" ph="gmock_main:" />
+                <marker date="1494472093000" expanded="true" signature="6745:6795" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="6796:6955" ph="gmock_main/fast:" />
+                <marker date="1494472093000" expanded="true" signature="6956:7130" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="7131:7211" ph="gtest_main:" />
+                <marker date="1494472093000" expanded="true" signature="7212:7262" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="7263:7434" ph="gtest_main/fast:" />
+                <marker date="1494472093000" expanded="true" signature="7435:7604" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="7605:7675" ph="gtest:" />
+                <marker date="1494472093000" expanded="true" signature="7676:7721" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="7722:7878" ph="gtest/fast:" />
+                <marker date="1494472093000" expanded="true" signature="7879:8047" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="8048:8126" ph="morseTest:" />
+                <marker date="1494472093000" expanded="true" signature="8127:8176" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="8177:8301" ph="morseTest/fast:" />
+                <marker date="1494472093000" expanded="true" signature="8302:8481" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="8482:8574" ph="equilibriumTests:" />
+                <marker date="1494472093000" expanded="true" signature="8575:8631" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="8632:8789" ph="equilibriumTests/fast:" />
+                <marker date="1494472093000" expanded="true" signature="8790:8820" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="8822:8840" ph="main.o:" />
+                <marker date="1494472093000" expanded="true" signature="8842:8891" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="8892:8979" ph="main.cpp.o:" />
+                <marker date="1494472093000" expanded="true" signature="8980:8999" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="9001:9019" ph="main.i:" />
+                <marker date="1494472093000" expanded="true" signature="9021:9074" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="9075:9162" ph="main.cpp.i:" />
+                <marker date="1494472093000" expanded="true" signature="9163:9182" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="9184:9202" ph="main.s:" />
+                <marker date="1494472093000" expanded="true" signature="9204:9261" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="9262:9349" ph="main.cpp.s:" />
+                <marker date="1494472093000" expanded="true" signature="9350:9384" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="9385:9982" ph="help:" />
+                <marker date="1494472093000" expanded="true" signature="9983:10303" ph=".PHONY:" />
+                <marker date="1494472093000" expanded="true" signature="10304:10440" ph="cmake_check_build_system:" />
+                <marker date="1494472093000" expanded="true" signature="10441:10474" ph=".PHONY:" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;,</find>
+      <find>,</find>
+      <find>words</find>
+      <find>color</find>
+      <find>malloc</find>
+      <find>E</find>
+      <find>&quot;---&quot;</find>
+      <find>−</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;,\t</replace>
+      <replace>,</replace>
+      <replace>-</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Morse.cpp" />
+        <option value="$PROJECT_DIR$/src/Morse.h" />
+        <option value="$PROJECT_DIR$/test/src/equilibrium/finder_test.cpp" />
+        <option value="$PROJECT_DIR$/test/src/equilibrium/equilibriumTest.cpp" />
+        <option value="$PROJECT_DIR$/test/src/morse/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/malloc.h" />
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/equilibrium/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/morse/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/equilibrium/Equilibrium.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test/src/equilibrium/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/morse/Morse.cpp" />
+        <option value="$PROJECT_DIR$/test/src/morse/morseTest.cpp" />
+        <option value="$PROJECT_DIR$/src/morse/Morse.h" />
+        <option value="$PROJECT_DIR$/src/morse/Morse.h" />
+        <option value="$PROJECT_DIR$/test/src/morse/morseTest.cpp" />
+        <option value="$PROJECT_DIR$/src/morse/Morse.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="2560" />
+    <option name="height" value="1368" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algos" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algos" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algos" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/Workspace/interviews/algorithmic-exercises/cpp" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/morse" />
+      <recent name="$PROJECT_DIR$/src/equilibrium" />
+      <recent name="$PROJECT_DIR$/test/src/equilibrium" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/morse" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/test/src/morse" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Google Test.morseTest">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Default" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="algos" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algos" TARGET_NAME="algos" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="algos" RUN_TARGET_NAME="algos">
+      <envs />
+    </configuration>
+    <configuration name="equilibrium" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algos" TARGET_NAME="equilibrium" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="equilibriumTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algos" TARGET_NAME="equilibriumTests" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="algos" RUN_TARGET_NAME="equilibriumTests" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algos" TARGET_NAME="gmock" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algos" TARGET_NAME="gmock_main" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algos" TARGET_NAME="gtest" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algos" TARGET_NAME="gtest_main" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="morse" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algos" TARGET_NAME="morse" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="morseTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algos" TARGET_NAME="morseTest" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="algos" RUN_TARGET_NAME="morseTest" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <list size="10">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.algos" />
+      <item index="2" class="java.lang.String" itemvalue="Application.equilibrium" />
+      <item index="3" class="java.lang.String" itemvalue="Application.morse" />
+      <item index="4" class="java.lang.String" itemvalue="Application.gmock" />
+      <item index="5" class="java.lang.String" itemvalue="Application.gmock_main" />
+      <item index="6" class="java.lang.String" itemvalue="Application.gtest" />
+      <item index="7" class="java.lang.String" itemvalue="Application.gtest_main" />
+      <item index="8" class="java.lang.String" itemvalue="Google Test.equilibriumTests" />
+      <item index="9" class="java.lang.String" itemvalue="Google Test.morseTest" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="203523df-dfa3-4916-8fa7-5d0054dd7e5c" name="Default" comment="" />
+      <created>1494465274263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1494465274263</updated>
+      <workItem from="1494465276235" duration="5114000" />
+      <workItem from="1494470909597" duration="1216000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="morseTest - 2017.05.10 at 19h 50m 55s.xml">
+      <configuration name="morseTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="morseTest - 2017.05.10 at 19h 51m 31s.xml">
+      <configuration name="morseTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="morseTest - 2017.05.10 at 19h 53m 39s.xml">
+      <configuration name="morseTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="morseTest - 2017.05.10 at 19h 54m 09s.xml">
+      <configuration name="morseTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="morseTest - 2017.05.10 at 19h 54m 50s.xml">
+      <configuration name="morseTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="morseTest - 2017.05.10 at 19h 55m 08s.xml">
+      <configuration name="morseTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="morseTest - 2017.05.10 at 19h 58m 30s.xml">
+      <configuration name="morseTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="morseTest - 2017.05.10 at 20h 01m 36s.xml">
+      <configuration name="morseTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="morseTest - 2017.05.10 at 20h 03m 47s.xml">
+      <configuration name="morseTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="morseTest - 2017.05.10 at 20h 04m 42s.xml">
+      <configuration name="morseTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6330000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="2560" height="1368" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3048" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.49787912" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5021209" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/equilibrium/Equilibrium.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/equilibrium/Equilibrium.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#54#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1494472093000" expanded="true" signature="943:959" ph="CMAKE_COMMAND=&quot;/Users/kig/Library/Application Support/J..." />
+            <marker date="1494472093000" expanded="true" signature="3516:3539" ph="install/fast:" />
+            <marker date="1494472093000" expanded="true" signature="3540:3616" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="3617:3757" ph="list_install_components:" />
+            <marker date="1494472093000" expanded="true" signature="3758:3845" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="3846:3899" ph="list_install_components/fast:" />
+            <marker date="1494472093000" expanded="true" signature="3901:3961" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="3962:4336" ph="all:" />
+            <marker date="1494472093000" expanded="true" signature="4337:4374" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="4375:4420" ph="clean:" />
+            <marker date="1494472093000" expanded="true" signature="4421:4460" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="4461:4478" ph="clean/fast:" />
+            <marker date="1494472093000" expanded="true" signature="4480:4536" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="4537:4596" ph="preinstall:" />
+            <marker date="1494472093000" expanded="true" signature="4597:4653" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="4654:4714" ph="preinstall/fast:" />
+            <marker date="1494472093000" expanded="true" signature="4715:4756" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="4757:4875" ph="depend:" />
+            <marker date="1494472093000" expanded="true" signature="4876:5036" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="5037:5107" ph="algos:" />
+            <marker date="1494472093000" expanded="true" signature="5108:5153" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="5154:5236" ph="algos/fast:" />
+            <marker date="1494472093000" expanded="true" signature="5237:5401" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="5402:5472" ph="morse:" />
+            <marker date="1494472093000" expanded="true" signature="5473:5518" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="5519:5621" ph="morse/fast:" />
+            <marker date="1494472093000" expanded="true" signature="5622:5792" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="5793:5875" ph="equilibrium:" />
+            <marker date="1494472093000" expanded="true" signature="5876:5927" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="5928:6060" ph="equilibrium/fast:" />
+            <marker date="1494472093000" expanded="true" signature="6061:6231" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="6232:6302" ph="gmock:" />
+            <marker date="1494472093000" expanded="true" signature="6303:6348" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="6349:6493" ph="gmock/fast:" />
+            <marker date="1494472093000" expanded="true" signature="6494:6663" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="6664:6744" ph="gmock_main:" />
+            <marker date="1494472093000" expanded="true" signature="6745:6795" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="6796:6955" ph="gmock_main/fast:" />
+            <marker date="1494472093000" expanded="true" signature="6956:7130" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="7131:7211" ph="gtest_main:" />
+            <marker date="1494472093000" expanded="true" signature="7212:7262" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="7263:7434" ph="gtest_main/fast:" />
+            <marker date="1494472093000" expanded="true" signature="7435:7604" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="7605:7675" ph="gtest:" />
+            <marker date="1494472093000" expanded="true" signature="7676:7721" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="7722:7878" ph="gtest/fast:" />
+            <marker date="1494472093000" expanded="true" signature="7879:8047" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="8048:8126" ph="morseTest:" />
+            <marker date="1494472093000" expanded="true" signature="8127:8176" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="8177:8301" ph="morseTest/fast:" />
+            <marker date="1494472093000" expanded="true" signature="8302:8481" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="8482:8574" ph="equilibriumTests:" />
+            <marker date="1494472093000" expanded="true" signature="8575:8631" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="8632:8789" ph="equilibriumTests/fast:" />
+            <marker date="1494472093000" expanded="true" signature="8790:8820" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="8822:8840" ph="main.o:" />
+            <marker date="1494472093000" expanded="true" signature="8842:8891" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="8892:8979" ph="main.cpp.o:" />
+            <marker date="1494472093000" expanded="true" signature="8980:8999" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="9001:9019" ph="main.i:" />
+            <marker date="1494472093000" expanded="true" signature="9021:9074" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="9075:9162" ph="main.cpp.i:" />
+            <marker date="1494472093000" expanded="true" signature="9163:9182" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="9184:9202" ph="main.s:" />
+            <marker date="1494472093000" expanded="true" signature="9204:9261" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="9262:9349" ph="main.cpp.s:" />
+            <marker date="1494472093000" expanded="true" signature="9350:9384" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="9385:9982" ph="help:" />
+            <marker date="1494472093000" expanded="true" signature="9983:10303" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="10304:10440" ph="cmake_check_build_system:" />
+            <marker date="1494472093000" expanded="true" signature="10441:10474" ph=".PHONY:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/morse/Morse.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="e#87#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/googletest/CTestTestfile.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="193" column="64" lean-forward="false" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="1942" column="43" lean-forward="false" selection-start-line="1942" selection-start-column="43" selection-end-line="1942" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="1667" column="0" lean-forward="false" selection-start-line="1667" selection-start-column="0" selection-end-line="1667" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/finder.cbp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ColorFaderTest.cbp" />
+    <entry file="file://$PROJECT_DIR$/test/lib/googletest/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/googletest/travis.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/equilibrium/helpers.h" />
+    <entry file="file://$PROJECT_DIR$/test/src/equilibrium/equilibriumTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <marker date="1494468514000" expanded="true" signature="267:539" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/Makefile" />
+    <entry file="file://$PROJECT_DIR$/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="32" column="91" lean-forward="false" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Morse.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/malloc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="59" column="15" lean-forward="false" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/equilibrium/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/morse/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/equilibrium/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/morse/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/equilibrium/Equilibrium.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/equilibrium/Equilibrium.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#54#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1494472093000" expanded="true" signature="943:959" ph="CMAKE_COMMAND=&quot;/Users/kig/Library/Application Support/J..." />
+            <marker date="1494472093000" expanded="true" signature="3516:3539" ph="install/fast:" />
+            <marker date="1494472093000" expanded="true" signature="3540:3616" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="3617:3757" ph="list_install_components:" />
+            <marker date="1494472093000" expanded="true" signature="3758:3845" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="3846:3899" ph="list_install_components/fast:" />
+            <marker date="1494472093000" expanded="true" signature="3901:3961" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="3962:4336" ph="all:" />
+            <marker date="1494472093000" expanded="true" signature="4337:4374" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="4375:4420" ph="clean:" />
+            <marker date="1494472093000" expanded="true" signature="4421:4460" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="4461:4478" ph="clean/fast:" />
+            <marker date="1494472093000" expanded="true" signature="4480:4536" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="4537:4596" ph="preinstall:" />
+            <marker date="1494472093000" expanded="true" signature="4597:4653" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="4654:4714" ph="preinstall/fast:" />
+            <marker date="1494472093000" expanded="true" signature="4715:4756" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="4757:4875" ph="depend:" />
+            <marker date="1494472093000" expanded="true" signature="4876:5036" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="5037:5107" ph="algos:" />
+            <marker date="1494472093000" expanded="true" signature="5108:5153" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="5154:5236" ph="algos/fast:" />
+            <marker date="1494472093000" expanded="true" signature="5237:5401" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="5402:5472" ph="morse:" />
+            <marker date="1494472093000" expanded="true" signature="5473:5518" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="5519:5621" ph="morse/fast:" />
+            <marker date="1494472093000" expanded="true" signature="5622:5792" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="5793:5875" ph="equilibrium:" />
+            <marker date="1494472093000" expanded="true" signature="5876:5927" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="5928:6060" ph="equilibrium/fast:" />
+            <marker date="1494472093000" expanded="true" signature="6061:6231" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="6232:6302" ph="gmock:" />
+            <marker date="1494472093000" expanded="true" signature="6303:6348" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="6349:6493" ph="gmock/fast:" />
+            <marker date="1494472093000" expanded="true" signature="6494:6663" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="6664:6744" ph="gmock_main:" />
+            <marker date="1494472093000" expanded="true" signature="6745:6795" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="6796:6955" ph="gmock_main/fast:" />
+            <marker date="1494472093000" expanded="true" signature="6956:7130" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="7131:7211" ph="gtest_main:" />
+            <marker date="1494472093000" expanded="true" signature="7212:7262" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="7263:7434" ph="gtest_main/fast:" />
+            <marker date="1494472093000" expanded="true" signature="7435:7604" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="7605:7675" ph="gtest:" />
+            <marker date="1494472093000" expanded="true" signature="7676:7721" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="7722:7878" ph="gtest/fast:" />
+            <marker date="1494472093000" expanded="true" signature="7879:8047" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="8048:8126" ph="morseTest:" />
+            <marker date="1494472093000" expanded="true" signature="8127:8176" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="8177:8301" ph="morseTest/fast:" />
+            <marker date="1494472093000" expanded="true" signature="8302:8481" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="8482:8574" ph="equilibriumTests:" />
+            <marker date="1494472093000" expanded="true" signature="8575:8631" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="8632:8789" ph="equilibriumTests/fast:" />
+            <marker date="1494472093000" expanded="true" signature="8790:8820" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="8822:8840" ph="main.o:" />
+            <marker date="1494472093000" expanded="true" signature="8842:8891" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="8892:8979" ph="main.cpp.o:" />
+            <marker date="1494472093000" expanded="true" signature="8980:8999" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="9001:9019" ph="main.i:" />
+            <marker date="1494472093000" expanded="true" signature="9021:9074" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="9075:9162" ph="main.cpp.i:" />
+            <marker date="1494472093000" expanded="true" signature="9163:9182" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="9184:9202" ph="main.s:" />
+            <marker date="1494472093000" expanded="true" signature="9204:9261" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="9262:9349" ph="main.cpp.s:" />
+            <marker date="1494472093000" expanded="true" signature="9350:9384" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="9385:9982" ph="help:" />
+            <marker date="1494472093000" expanded="true" signature="9983:10303" ph=".PHONY:" />
+            <marker date="1494472093000" expanded="true" signature="10304:10440" ph="cmake_check_build_system:" />
+            <marker date="1494472093000" expanded="true" signature="10441:10474" ph=".PHONY:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/morse/morseTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/morse/Morse.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#87#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/morse/Morse.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+          <folding>
+            <element signature="e#54#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
