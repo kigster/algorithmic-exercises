@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 
-set -e
-
-root=$(pwd)
-source ${root}/bash/libutil.sh
+source .bash_init
 
 build::setup
 build::cpp

@@ -1,5 +1,6 @@
 
 build::ruby() {
+  [[ -z "${root}" ]] && find . -name "export_root.sh" -exec source {} \;
   section::h1 'Building Ruby Projects...'
   cd ${root}/ruby
   gem install bundler  --no-ri --no-rdoc > /dev/null

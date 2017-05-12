@@ -74,7 +74,14 @@ columns() {
   tput cols
 }
 
-for file in $(ls -1 bash); do
-  [[ $file == 'libutil.sh' ]] && continue
-  source bash/${file}
-done
+load_all() {
+  for file in $(ls -1 bash/*); do
+   [[ $file =~ 'libutil.sh' ]] && continue
+   [[ -n "${DEBUG}" ]] && echo "loading ${file}..."
+   source ${file}
+  done
+}
+
+load_all
+
+

@@ -21,7 +21,24 @@ cd algorithmic-exercises
 
 <a href="doc/test-suite.png" target="_blank" style="text-align: center; width: 100%; display: block; padding: 20px;" ><img src="doc/test-suite.png" width="60%" border="1" style="box-shadow: 0 0 25px black; "></a>
 
-View the contents of that shell script for specifics on building each portion of the repo.
+View the contents of the build shell script for specifics on building each portion of the repo.
+
+You can also run each build separately:
+
+```bash
+cd algorithmic-exercises
+
+# load the bash functions from "./bash/*"
+source .bash_init
+
+# run functions to build specific portions:
+build::cpp
+
+# or
+build::ruby
+
+```
+
 
 ## Contributing
 

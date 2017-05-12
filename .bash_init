@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+source ./bash/export_root.sh
+source ./bash/libutil.sh
+
