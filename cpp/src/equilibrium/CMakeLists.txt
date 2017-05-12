@@ -4,7 +4,7 @@ project(equilibrium C CXX)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
-set(SOURCE_FILES equlibrium.cc equlibrium.h)
+set(SOURCE_FILES equilibrium.cpp equilibrium.h)
 
 add_library(equilibrium ${SOURCE_FILES} )
 
