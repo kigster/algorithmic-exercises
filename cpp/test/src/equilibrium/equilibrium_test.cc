@@ -3,23 +3,20 @@
 //
 
 #include "gtest/gtest.h"
-#include <Equilibrium.h>
-#include "gtest/gtest.h"
-#include <vector>
-
+#include "../../../src/equilibrium/equlibrium.h"
 
 void verifyExpectations(const std::vector<int> &inputData,
                         const std::vector<int> &expected) {
 
   Equilibrium *f = new Equilibrium(inputData);
 
-  const std::vector<int> *result = f->find();
+  const std::vector<int> &result = f->find();
 
-  EXPECT_EQ(expected.size(), result->size());
-  EXPECT_EQ(expected, *result);
+  EXPECT_EQ(expected.size(), result.size());
+  EXPECT_EQ(expected, result);
 
   for (auto i = 0; i < expected.size(); i++) {
-    EXPECT_EQ(expected[i], result->at(i));
+    EXPECT_EQ(expected[i], result.at(i));
   }
 }
 

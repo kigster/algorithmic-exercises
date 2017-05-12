@@ -2,8 +2,9 @@
 // Created by Konstantin Gredeskoul on 1/23/16.
 //
 
+#include <string>
 #include "gtest/gtest.h"
-#include <Morse.h>
+#include "../../../src/morse/morse.h"
 
 void verifyExpectations(const std::string &codedInput,
                         const std::string &expectedOutput) {

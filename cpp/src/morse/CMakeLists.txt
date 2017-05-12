@@ -1,7 +1,7 @@
 project(morse C CXX)
 set(CMAKE_CXX_STANDARD 14)
 cmake_minimum_required(VERSION 3.2)
-set(SOURCE_FILES Morse.cpp Morse.h)
+set(SOURCE_FILES morse.cc morse.h)
 
 add_library(morse ${SOURCE_FILES} )
 

@@ -5,7 +5,7 @@
 #include <string>
 #include <map>
 #include <iostream>
-#include "Morse.h"
+#include "morse.h"
 
 Morse::Morse(std::string codedInput) {
   coded = std::move(codedInput);

@@ -10,7 +10,7 @@
 class Equilibrium {
 public:
     Equilibrium(const std::vector<int> &data_v);
-    std::vector<int> *find();
+    std::vector<int> &find();
 private:
     std::vector<int> data;
     std::vector<int> results;

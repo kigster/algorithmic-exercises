@@ -10,6 +10,7 @@ module Interview
   end
 end
 
+require 'interview/ruby/morse'
 require 'interview/ruby/equilibrium'
 require 'interview/ruby/binarygap'
 require 'interview/ruby/equilibrium/finder_slow'

@@ -3,14 +3,16 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CidrRootsConfiguration">
     <sourceRoots>
+      <file path="$PROJECT_DIR$/src" />
       <file path="$PROJECT_DIR$/src/equilibrium" />
       <file path="$PROJECT_DIR$/src/morse" />
+      <file path="$PROJECT_DIR$/test" />
       <file path="$PROJECT_DIR$/test/src" />
+      <file path="$PROJECT_DIR$/test/src/equilibrium" />
+      <file path="$PROJECT_DIR$/test/src/morse" />
     </sourceRoots>
-    <libraryRoots>
-      <file path="$PROJECT_DIR$/test/lib" />
-    </libraryRoots>
     <excludeRoots>
+      <file path="$PROJECT_DIR$/test/CMakeFiles" />
       <file path="$PROJECT_DIR$/test/src/CMakeFiles" />
     </excludeRoots>
   </component>

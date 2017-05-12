@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f782aeaf-e41f-4f84-8966-081fb425ba55" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cpp/test/equilibrium/equilibriumTests" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cpp/test/morse/morseTest" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cpp/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/interview/ruby/morse.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/interview/ruby/morse_spec.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cpp/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cpp/src/equilibrium/Equilibrium.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cpp/src/equilibrium/Equilibrium.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cpp/src/morse/Morse.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cpp/test/test_equilibrium.cpp" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../cpp/main.cpp" afterPath="$PROJECT_DIR$/../cpp/src/main.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../cpp/test/src/equilibrium/CMakeLists.txt" afterPath="$PROJECT_DIR$/../cpp/test/equilibrium/CMakeLists.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../cpp/test/src/morse/CMakeLists.txt" afterPath="$PROJECT_DIR$/../cpp/test/morse/CMakeLists.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../cpp/test/src/morse/morseTest.cpp" afterPath="$PROJECT_DIR$/../cpp/test/morse/morse_test.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cpp/.idea/misc.xml" afterPath="$PROJECT_DIR$/../cpp/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cpp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cpp/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cpp/CMakeLists.txt" afterPath="$PROJECT_DIR$/../cpp/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cpp/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/../cpp/src/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cpp/src/morse/CMakeLists.txt" afterPath="$PROJECT_DIR$/../cpp/src/morse/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cpp/test/CMakeLists.txt" afterPath="$PROJECT_DIR$/../cpp/test/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codility.iml" afterPath="$PROJECT_DIR$/.idea/codility.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/interview/ruby.rb" afterPath="$PROJECT_DIR$/lib/interview/ruby.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,6 +38,7 @@
     <SUITE FILE_PATH="coverage/ruby@All_specs_in_spec__codility.coverage" NAME="All specs in spec: codility Coverage Results" MODIFIED="1494362049244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="codility" />
     <SUITE FILE_PATH="coverage/codility@Codility__EquilibriumFinder__codility.coverage" NAME="Codility::EquilibriumFinder: codility Coverage Results" MODIFIED="1493871010940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="codility" />
     <SUITE FILE_PATH="coverage/codility@Codility__codility.coverage" NAME="Codility: codility Coverage Results" MODIFIED="1493869216018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="codility" />
+    <SUITE FILE_PATH="coverage/ruby@Interview__Ruby__Morse__codility.coverage" NAME="Interview::Ruby::Morse: codility Coverage Results" MODIFIED="1494561865239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="codility" />
     <SUITE FILE_PATH="coverage/codility@Equilibrium__codility.coverage" NAME="Equilibrium: codility Coverage Results" MODIFIED="1493872501202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="codility" />
     <SUITE FILE_PATH="coverage/codility@All_specs_in_spec__codility.coverage" NAME="All specs in spec: codility Coverage Results" MODIFIED="1493869222805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="codility" />
   </component>
@@ -33,118 +56,146 @@
     <favorites_list name="ruby" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="shared_examples.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/shared_examples.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finder_slow_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/finder_slow_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finder_fast_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/finder_fast_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ruby.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/interview/ruby.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="version.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/interview/ruby/version.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="equilibrium.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/interview/ruby/equilibrium.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="binarygap.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/interview/ruby/binarygap.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spec_helper.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="interview-ruby.gemspec" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interview-ruby.gemspec">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="binarygap_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/interview/ruby/binarygap_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finder.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/interview/ruby/equilibrium/finder.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.75398934">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="shared_examples.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/shared_examples.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="morse.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/interview/ruby/morse.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="438">
+                  <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="common.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/json-2.1.0/lib/json/common.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1712">
+                  <caret line="383" column="6" lean-forward="false" selection-start-line="383" selection-start-column="6" selection-end-line="383" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="json.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/2.4.0/json.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="516">
+                  <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="string.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/string.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="441">
+                  <caret line="1394" column="8" lean-forward="false" selection-start-line="1394" selection-start-column="8" selection-end-line="1394" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="scope.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/rake-12.0.0/lib/rake/scope.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="finder_slow_spec.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/finder_slow_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ruby.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/interview/ruby.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="version.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/interview/ruby/version.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="binarygap_spec.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/spec/interview/ruby/binarygap_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="morse_spec.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/spec/interview/ruby/morse_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ruby_spec.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/spec/interview/ruby_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="morse.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/interview/ruby/morse.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="685">
+                  <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -162,6 +213,8 @@
       <find>se</find>
       <find>cur</find>
       <find>current</find>
+      <find>.</find>
+      <find>#A#`</find>
     </findStrings>
     <replaceStrings>
       <replace>@ary</replace>
@@ -170,6 +223,7 @@
       <replace>require &quot;interview/ruby</replace>
       <replace>require 'interview/ruby</replace>
       <replace>number</replace>
+      <replace>.</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -197,7 +251,6 @@
         <option value="$PROJECT_DIR$/spec/interview/ruby/equilibrium/finder_fast_spec.rb" />
         <option value="$PROJECT_DIR$/spec/interview/ruby/equilibrium/finder_slow_spec.rb" />
         <option value="$PROJECT_DIR$/lib/interview/ruby/equilibrium/finder_slow.rb" />
-        <option value="$PROJECT_DIR$/lib/interview/ruby.rb" />
         <option value="$PROJECT_DIR$/.rspec_status" />
         <option value="$PROJECT_DIR$/lib/interview/ruby/binarygap/loop_state.rb" />
         <option value="$PROJECT_DIR$/lib/interview/ruby/binarygap/bit_shifter.rb" />
@@ -205,6 +258,10 @@
         <option value="$PROJECT_DIR$/interview-ruby.gemspec" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/interview/ruby/binarygap_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/interview/ruby/µorse.rb" />
+        <option value="$PROJECT_DIR$/lib/interview/ruby.rb" />
+        <option value="$PROJECT_DIR$/spec/interview/ruby/morse_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/interview/ruby/morse.rb" />
       </list>
     </option>
   </component>
@@ -215,7 +272,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2560" />
     <option name="width" value="2560" />
     <option name="height" value="1600" />
   </component>
@@ -397,6 +453,46 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ruby">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lib">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="interview">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ruby">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lib">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="interview">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ruby">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -407,20 +503,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="FullScreen" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/interview/ruby" />
+      <recent name="$PROJECT_DIR$/lib/interview/ruby" />
+      <recent name="$PROJECT_DIR$/spec/interview/ruby/equilibrium" />
+      <recent name="$PROJECT_DIR$/lib/interview/ruby/equilibrium" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spec/interview" />
       <recent name="$PROJECT_DIR$/spec/interview/ruby" />
       <recent name="$PROJECT_DIR$/spec/interview/ruby/equilibrium" />
       <recent name="$PROJECT_DIR$/lib/interview/ruby" />
       <recent name="$PROJECT_DIR$/lib/interview/equilibrium" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib/interview/ruby" />
-      <recent name="$PROJECT_DIR$/spec/interview/ruby/equilibrium" />
-      <recent name="$PROJECT_DIR$/lib/interview/ruby/equilibrium" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -435,40 +532,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.All specs in spec: codility">
-    <configuration default="false" name="Codility: codility" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="codility" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/interview/ruby_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Codility" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="RSpec.Interview::Ruby::Morse: codility">
     <configuration default="false" name="All specs in spec: codility" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="codility" />
@@ -591,6 +655,39 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Interview::Ruby::BinaryGap" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Interview::Ruby::Morse: codility" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="codility" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/interview/ruby/morse_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Interview::Ruby::Morse" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -756,19 +853,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.Codility: codility" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in spec: codility" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Codility::EquilibriumFinder: codility" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Equilibrium: codility" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Interview::Ruby::BinaryGap: codility" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in spec: codility" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.Codility::EquilibriumFinder: codility" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.Equilibrium: codility" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Interview::Ruby::BinaryGap: codility" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Interview::Ruby::Morse: codility" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in spec: codility" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Interview::Ruby::BinaryGap: codility" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Equilibrium: codility" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Codility::EquilibriumFinder: codility" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Codility: codility" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Interview::Ruby::Morse: codility" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in spec: codility" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Interview::Ruby::BinaryGap: codility" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Equilibrium: codility" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Codility::EquilibriumFinder: codility" />
       </list>
     </recent_temporary>
   </component>
@@ -776,6 +873,9 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f782aeaf-e41f-4f84-8966-081fb425ba55" name="Default" comment="" />
@@ -792,44 +892,44 @@
       <workItem from="1494228662457" duration="1331000" />
       <workItem from="1494308712402" duration="7391000" />
       <workItem from="1494352795739" duration="7174000" />
-      <workItem from="1494554978528" duration="269000" />
+      <workItem from="1494554978528" duration="3961000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_specs_in_spec__codility - 2017.05.09 at 12h 28m 34s.xml">
-      <configuration name="All specs in spec: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Interview__Ruby__Morse__codility - 2017.05.11 at 20h 55m 46s.xml">
+      <configuration name="Interview::Ruby::Morse: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_spec__codility - 2017.05.09 at 12h 31m 18s.xml">
-      <configuration name="All specs in spec: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Interview__Ruby__Morse__codility - 2017.05.11 at 20h 56m 46s.xml">
+      <configuration name="Interview::Ruby::Morse: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_spec__codility - 2017.05.09 at 12h 31m 29s.xml">
-      <configuration name="All specs in spec: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Interview__Ruby__Morse__codility - 2017.05.11 at 20h 56m 55s.xml">
+      <configuration name="Interview::Ruby::Morse: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_spec__codility - 2017.05.09 at 12h 52m 24s.xml">
-      <configuration name="All specs in spec: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Interview__Ruby__Morse__codility - 2017.05.11 at 21h 01m 18s.xml">
+      <configuration name="Interview::Ruby::Morse: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_spec__codility - 2017.05.09 at 13h 33m 25s.xml">
-      <configuration name="All specs in spec: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Interview__Ruby__Morse__codility - 2017.05.11 at 21h 02m 16s.xml">
+      <configuration name="Interview::Ruby::Morse: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_spec__codility - 2017.05.09 at 13h 34m 13s.xml">
-      <configuration name="All specs in spec: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Interview__Ruby__Morse__codility - 2017.05.11 at 21h 02m 33s.xml">
+      <configuration name="Interview::Ruby::Morse: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Interview__Ruby__BinaryGap__codility - 2017.05.09 at 12h 18m 47s.xml">
-      <configuration name="Interview::Ruby::BinaryGap: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Interview__Ruby__Morse__codility - 2017.05.11 at 21h 03m 29s.xml">
+      <configuration name="Interview::Ruby::Morse: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Interview__Ruby__BinaryGap__codility - 2017.05.09 at 12h 19m 57s.xml">
-      <configuration name="Interview::Ruby::BinaryGap: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Interview__Ruby__Morse__codility - 2017.05.11 at 21h 03m 36s.xml">
+      <configuration name="Interview::Ruby::Morse: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Interview__Ruby__BinaryGap__codility - 2017.05.09 at 12h 20m 16s.xml">
-      <configuration name="Interview::Ruby::BinaryGap: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Interview__Ruby__Morse__codility - 2017.05.11 at 21h 03m 57s.xml">
+      <configuration name="Interview::Ruby::Morse: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Interview__Ruby__BinaryGap__codility - 2017.05.09 at 12h 21m 34s.xml">
-      <configuration name="Interview::Ruby::BinaryGap: codility" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Interview__Ruby__Morse__codility - 2017.05.11 at 21h 04m 25s.xml">
+      <configuration name="Interview::Ruby::Morse: codility" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31726000" />
+    <option name="totallyTimeSpent" value="35418000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -841,20 +941,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="0" width="2560" height="1600" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1600" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2610063" sideWeight="0.50476193" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2610063" sideWeight="0.4952381" order="2" side_tool="false" content_ui="tabs" x="803" y="512" width="877" height="473" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2606383" sideWeight="0.4952381" order="2" side_tool="false" content_ui="tabs" x="803" y="512" width="877" height="473" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.4968153" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2313492" sideWeight="0.4886968" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2313492" sideWeight="0.60638297" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2313492" sideWeight="0.5113032" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32779256" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2313492" sideWeight="0.39361703" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43936878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17359413" sideWeight="0.5041929" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -863,7 +964,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809225" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -907,37 +1007,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml" />
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs22/enumerable.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="370" column="8" lean-forward="false" selection-start-line="370" selection-start-column="8" selection-end-line="370" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codility.gemspec" />
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs22/enumerator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4008">
-          <caret line="167" column="8" lean-forward="false" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/rubystubs22/fixnum.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3504">
@@ -978,13 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.rspec">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1014,33 +1076,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/interview/ruby_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/interview/ruby.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.rspec_status">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="62" lean-forward="true" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/finder_slow_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,31 +1091,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/shared_examples.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/interview/ruby/binarygap/bit_shifter.rb" />
-    <entry file="file://$PROJECT_DIR$/lib/interview/ruby/equilibrium.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/interview/ruby/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/enumerable.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1102,7 +1117,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interview-ruby.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="0">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
@@ -1117,16 +1132,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/interview/ruby/equilibrium/finder.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="0">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/interview/ruby/equilibrium.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/shared_examples.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/interview/ruby/equilibrium/finder_slow_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/interview/ruby/binarygap_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/interview/ruby_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/interview/ruby/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/interview/ruby.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/rake-12.0.0/lib/rake/scope.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/string.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="1394" column="8" lean-forward="false" selection-start-line="1394" selection-start-column="8" selection-end-line="1394" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/2.4.0/json.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/json-2.1.0/lib/json/common.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1712">
+          <caret line="383" column="6" lean-forward="false" selection-start-line="383" selection-start-column="6" selection-end-line="383" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/interview/ruby/morse_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/interview/ruby/morse.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
           <folding />
         </state>
       </provider>

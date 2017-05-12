@@ -3,15 +3,15 @@
 //
 
 #include <iostream>
-#include "Equilibrium.h"
-
-std::string &getString(std::string &decoded, std::string &character);
+#include "equlibrium.h"
+#include <algorithm> // std::min_element
+#include <iterator>  // std::begin, std::end
 
 Equilibrium::Equilibrium(const std::vector<int> &data_v) {
     data = data_v;
 }
 
-std::vector<int> *Equilibrium::find() {
+std::vector<int> &Equilibrium::find() {
     int len = data.size();
     int last = len - 1;
 
@@ -31,7 +31,13 @@ std::vector<int> *Equilibrium::find() {
             results.push_back(i);
         }
     }
-    return &results;
+    return results;
 }
 
 
+auto solution(std::vector<int> &A) {
+    Equilibrium *f = new Equilibrium(A);
+    const std::vector<int> &result = f->find();
+    auto min = std::min_element(std::begin(result), std::end(result));
+    return min;
+}
