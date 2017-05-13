@@ -3,7 +3,7 @@ project(morse C CXX)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
-set(SOURCE_FILES morse.cc morse.h)
+set(SOURCE_FILES morse.cpp morse.h)
 
 add_library(morse ${SOURCE_FILES} )
 
