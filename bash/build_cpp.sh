@@ -8,11 +8,8 @@ build::cpp() {
   cmake -Wno-dev .  
   make 
 
-  section::h2 'Testing Equlibrium...'
-  ./test/src/equilibrium/equilibriumTests
-
-  section::h2 'Testing morseTest...'
-  ./test/src/morse/morseTest
+  section::h2 'Testing Projects...'
+  ./test/tests
 
   cd ${root}
 }

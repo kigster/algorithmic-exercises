@@ -12,5 +12,5 @@ add_subdirectory(equilibrium)
 include_directories(morse)
 include_directories(equilibrium)
 
-add_executable(algos ${SOURCE_FILES} )
-target_link_libraries(algos equilibrium morse)
+#add_executable(algos ${SOURCE_FILES} )
+#target_link_libraries(algos equilibrium morse)
