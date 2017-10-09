@@ -1,3 +1,4 @@
+**/.idea/
 *.bridgesupport
 *.gem
 *.rbc
@@ -30,8 +31,9 @@
 **/Makefile
 **/*.cbp
 **/*.a
-/cpp/test/src/equilibrium/equilibriumTests
-/cpp/test/src/morse/morseTest
-/cpp/src/algos
-/cpp/algos
-/cpp/test/tests
+cpp/test/src/equilibrium/equilibriumTests
+cpp/test/src/morse/morseTest
+cpp/src/algos
+cpp/algos
+cpp/test/tests
+cpp/test/lib/googletest

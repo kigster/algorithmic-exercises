@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+guard :rspec, cmd: "bundle exec rspec" do
+  watch(%r{^.*\.gemspec}) { "spec"}
+  watch(%r{^lib/(.+)\.rb$}) { "spec" }
+  watch(%r{^spec/.+_spec\.rb$})
+  watch('spec/spec_helper.rb')  { "spec" }
+  watch(%r{spec/support/.*}) { "spec" }
+end
+
